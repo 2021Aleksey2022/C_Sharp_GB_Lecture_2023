@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Lecture_1.Example004_TypeDouble.TypeDouble</StartupObject>
+    <StartupObject>Lecture_1.Example005_Condition_IfElse.ConditionIfElse</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="Example002_UserHello\InputName.cs" />
     <Compile Include="Example003_Sum\NumberSum.cs" />
     <Compile Include="Example004_TypeDouble\TypeDouble.cs" />
+    <Compile Include="Example005_Condition_IfElse\ConditionIfElse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
