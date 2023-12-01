@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Lecture_1.Example002_UserHello.InputName</StartupObject>
+    <StartupObject>Lecture_1.Example003_Sum.NumberSum</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Example001_HelloWorld\PrintHelloWorld.cs" />
     <Compile Include="Example002_UserHello\InputName.cs" />
+    <Compile Include="Example003_Sum\NumberSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
