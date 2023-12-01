@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Lecture_1.Example006_NumberMax.NumberMax</StartupObject>
+    <StartupObject>Lecture_1.Example007_Magic.Magic</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="Example004_TypeDouble\TypeDouble.cs" />
     <Compile Include="Example005_Condition_IfElse\ConditionIfElse.cs" />
     <Compile Include="Example006_NumberMax\NumberMax.cs" />
+    <Compile Include="Example007_Magic\Magic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
