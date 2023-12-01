@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Lecture_1.Example003_Sum.NumberSum</StartupObject>
+    <StartupObject>Lecture_1.Example004_TypeDouble.TypeDouble</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,10 +49,12 @@
     <Compile Include="Example001_HelloWorld\PrintHelloWorld.cs" />
     <Compile Include="Example002_UserHello\InputName.cs" />
     <Compile Include="Example003_Sum\NumberSum.cs" />
+    <Compile Include="Example004_TypeDouble\TypeDouble.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
