@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Lecture_2.Example002_IntroArray.Class1</StartupObject>
+    <StartupObject>Lecture_2.Example003_MethodArray.Class1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Example001_IntroMethod\Class1.cs" />
     <Compile Include="Example002_IntroArray\Class1.cs" />
+    <Compile Include="Example003_MethodArray\Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
