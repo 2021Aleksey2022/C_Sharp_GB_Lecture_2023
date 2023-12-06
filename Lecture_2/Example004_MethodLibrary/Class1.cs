@@ -8,29 +8,33 @@ namespace Lecture_2.Example004_MethodLibrary
 {
     class Class1
     {
+        Random rnd = new Random();
         void FillArray(int[] collection)
         {
             int lnght = collection.Length;
-            for(int index = 0; index < lnght; index++){
-                collection[index] = new Random().Next(1, 10);
+            int index = 0;
+            while (index < lnght)
+            {
+               
+                collection[index] = rnd.Next(1, 10);
+                index++;
             }
-            
         }
         void PrintArray(int[] col)
         {
             int count = col.Length;
-            for(int position = 0; position < count; position++)
+            int position = 0;
+            while (position < count)
             {
-                Console.Write(col[position]);
-
+                System.Console.Write(col[position] + " ");
+                position++;
             }
-          
         }
         int IndexOffNumber(int[] collections, int find1)
         {
             int count = collections.Length;
             int index = 0;
-            int position = 0;
+            int position = -1;
             while (index < count)
             {
                 if (collections[index] == find1)
@@ -42,9 +46,9 @@ namespace Lecture_2.Example004_MethodLibrary
             }
             return position;
         }
-        static int[] array = new int[10];
         static void Main(string[] args)
         {
+            int[] array = new int[10];
             Class1 class1 = new Class1();
             class1.FillArray(array);
             class1.PrintArray(array);
